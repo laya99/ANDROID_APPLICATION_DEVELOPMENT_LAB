@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">qs2</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="array_countries">
+        <item>Australia</item>
+        <item>Canada</item>
+        <item>Cambodia</item>
+        <item>China</item>
+        <item>England</item>
+        <item>France</item>
+        <item>Japan</item>/>
+    </string-array>
+</resources>
