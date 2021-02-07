@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 try {
                     FileOutputStream fOut=openFileOutput(file, MODE_PRIVATE);
-                    data = "user1 123\nuser2 345\nuser3 456\n171216 216\n";
+                    data = "user1 123\nuser2 345\nuser3 456\nlaya laya\n";
                     fOut.write(data.getBytes());
 
                     fOut.close();
