@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity  {
                     if(isFound) {
                         Toast.makeText(getBaseContext(),"Login Successful"  ,Toast.LENGTH_SHORT).show();
                     } else {
-                        Toast.makeText(getBaseContext(),"Login Success"  ,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getBaseContext(),"Login Failed"  ,Toast.LENGTH_SHORT).show();
                     }
                 }
                 catch(Exception e){
